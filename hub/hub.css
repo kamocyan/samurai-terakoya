@@ -1,0 +1,618 @@
+html  {
+    font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;;
+}
+
+body {
+    line-height: 1.9;
+}
+
+.arial {
+    font-family: 'Arial Black',sans-serif;
+}
+
+/* コンテナ */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+/* コンテナ2 */
+.container2 {
+    position: relative;
+}
+
+/* コンテナ3 */
+.container3 {
+    width: 100%;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+/* コンテナ4 */
+.container4 {
+    width: 70%;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+/* 横並び */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* -----------------------
+ヘッダー
+----------------------- */
+
+/* 大きな背景画像 */
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+
+#home {
+    background-image: url(img/29335920_m.jpg);
+    min-height: 100vh;
+}
+
+#home .page-title {
+    text-transform: none;
+}
+
+.top {
+    padding: 30px 0;
+}
+
+.logo {
+    font-size: 47px;
+    color:  #3300cc;
+}
+
+.header-menu li {
+    margin-left: 40px;
+}
+
+.header-menu a {
+    font-size: 17px;
+    color: #fff;
+}
+
+.header-menu a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom:7px;
+}
+
+.page-title {
+    font-size: 70px;
+    color: #fff;
+    margin: 400px 0 0 10px;
+}
+
+.special a{
+    display: inline-block;
+    border: solid 1px #fff;
+    border-radius: 100px;
+    padding: 12px 30px 15px;
+    transition: .4s;
+}
+
+.special a:hover {
+    display: inline-block;
+    border: solid 1px #fff;
+    border-radius: 100px;
+    padding: 12px 30px 15px;
+    background-color: blue;
+    text-decoration: none;
+    transition: .4s;
+}
+
+@media only screen and (max-width: 768px) {
+    header .container flex top {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .header-menu li {
+            font-size: 10px;
+        }
+}
+
+/* -----------------------
+挨拶　事業内容
+----------------------- */
+#greeting {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+h2 {
+    font-size: 48px;
+}
+
+.service-left {
+    width: 48%;
+    margin-bottom: 50px;
+    line-height: 1.7;
+}
+
+.service-text {
+    margin-bottom: 20px;
+}
+
+.service-right {
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.greeting-right {
+    width: 50%;
+    line-height: 2.0;
+    margin: 0 0 80px 0;
+}
+
+.greeting-left {
+    width: 48%;
+    margin: 0 0 250px 0;
+}
+
+.sub-title {
+    font-weight: bold;
+}
+
+/* btn */
+.btn {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 350px;
+    font-weight: bold;
+    display: inline-block;
+    border: solid 1px #fff;
+    border-radius: 100px;
+    padding: 12px 30px 15px;
+    background-color: blue;
+}
+
+/* col */
+.col h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.col p {
+    padding-top: 10px;
+}
+
+#top2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#top2 .btn {
+    margin-left: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+/* -----------------------
+会社概要、採用情報
+----------------------- */
+.company {
+    background-image: url(img/company.jpg);
+    width: 50%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+.recruit {
+    background-image: url(img/parson3.jpg);
+    width: 50%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#top3 {
+    margin-top: 100px;
+}
+
+.top3-text {
+    margin: 20px 0 0 20px;
+}
+
+/* -----------------------
+インフォメーション
+----------------------- */
+#top4 dt {
+    width: 30%;
+    padding: 30px 0;
+    font-weight: 500px;
+    border-bottom: solid 1px #ddd;
+}
+
+#top4 dd{
+    width: 70%;
+    padding: 30px 0;
+    margin-inline-start: 0;
+    border-bottom: solid 1px #ddd;
+}
+
+.frame {
+    color: #fff;
+    border-style: solid;
+    background: blue;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#top4 h2 {
+    text-align: center;
+}
+
+#top4 {
+    margin-bottom: 50px;
+}
+
+/* -----------------------
+お問い合わせフォーム
+----------------------- */
+#top5 {
+    background-color: #ddd;
+    padding-bottom: 70px;
+}
+
+#top5 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#top5 a {
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #fff;
+    padding: 12px 140px;
+    background-color: #fff;
+}
+
+#top5 a {
+    transition: .4s;
+}
+
+#top5 a:hover {
+    background-color: blue;
+    text-decoration: none;
+    transition: .4s;
+    color: #fff;
+}
+
+/* -----------------------
+最後ナビ
+----------------------- */
+#top6 {
+    padding: 16px;
+}
+
+.last-menu {
+    padding: 0 100px;
+}
+
+.last-menu a {
+    font-size: 14px;
+    color: #87888e;
+}
+
+#top6 ul {
+    list-style: '▷';
+    color: #87888e;
+}
+
+#top6 a {
+    transition: .4s;
+}
+
+#top6 a:hover {
+    border-bottom: 1px solid #87888e;;
+    transition: .4s;
+    padding-bottom: 5px;
+}
+
+/* -----------------------
+フッダー
+----------------------- */
+.copyright {
+    background-color: blue;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* -----------------------
+＜＜事業内容ヘッダー＞＞
+----------------------- */
+.header-menu2 a {
+    color: #191970;
+}
+
+.header-menu a:hover {
+    border-bottom: 1px solid #191970;
+    padding-bottom:7px;
+}
+
+.special2 a{
+    display: inline-block;
+    border: solid 1px #191970;
+    border-radius: 100px;
+    padding: 12px 30px 15px;
+    transition: .3s;
+}
+
+.special2 a:hover {
+    color: #fff;
+    display: inline-block;
+    border: solid 1px #fff;
+    border-radius: 100px;
+    padding: 12px 30px 15px;
+    background-color: #191970;
+    text-decoration: none;
+    transition: .4s;
+}
+
+/* -----------------------
+＜＜メイン＞＞
+----------------------- */
+#hero2 {
+    background-image: url(img/28188836_m.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    display: flex;
+    align-items: center;
+}
+
+#hero2::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.hero2_inner {
+    z-index: 2;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.hero2_inner h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.sub_titile { 
+    font-size: 10px;
+    color: #87888e;
+    margin-left: 150px;
+}
+
+/* -----------------------
+TO USERS
+----------------------- */
+#tousers p{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+#tousers {
+    margin-bottom: 20px;
+}
+
+.column-a {
+    background-image: url(img/がま口財布のアイコン\　（ドル）.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100px;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.column-b {
+    background-image: url(img/注意マーク6.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.column-c {
+    background-image: url(img/会議アイコン3.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100px;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.column-d {
+    background-image: url(img/家の無料アイコン.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100px;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+#pic4 {
+    width: 20%;
+}
+
+#pic {
+    margin: 50px 100px;
+}
+
+#pic h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative; /*positionをrelativeに指定*/
+}
+
+#pic h3::after {
+    position: absolute; /*positionをabsoluteに指定*/
+    content: "";
+    background-color: gray; /*下線の色*/
+    width: 100px; /*線の幅*/
+    height: 2px; /*線の太さ*/
+    bottom: -20px; /*線のタテ位置*/
+    left: 50%;  /*線のヨコ位置*/
+    transform: translateX(-50%);/*線のヨコ位置*/
+    margin-bottom: 6px;
+  }
+
+#pic4 p {
+    text-align: center;
+}
+
+#service_pic .text {
+    width: 48%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+#service_pic .text  .sub {
+    font-size: 16px;
+    color: #3300cc;
+    font-weight: bold;
+}
+
+#service_pic .img {
+    width: 48%;
+    margin-right: 30px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#service_pic {
+    background-color: #f5f5f5;
+}
+
+#service_pic .text span {
+    margin-bottom: 20px;
+}
+
+/* -----------------------
+COMMISSION
+----------------------- */
+#title_text {
+    margin: 50px 50px;
+}
+
+#title_text .title {
+    width: 48%;
+}
+
+#title_text .title p {
+    font-weight: bold;
+}
+
+#title_text .text {
+    width: 48%;
+}
+
+#commission_frame {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.commission_title {
+    text-align: center;
+}
+
+.commission_title h2 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.commission_title span {
+    font-size: 16px;
+}
+
+#commission_frame .btn {
+    margin-left: 700px;
+    margin-bottom: 50px;
+}
+
+/* -----------------------
+RECRUIT
+----------------------- */
+table {
+    border-collapse: collapse;
+}
+
+th,td {
+    border: solid 1px #ddd;
+}
+
+th {
+    padding: 10px 200px 10px 10px;
+    background-color: #f5f5f5;
+    writing-mode: horizontal-tb;
+    white-space: nowrap;
+}
+
+td {
+    padding: 10px;
+}
+
+.recruit_subtitle {
+    font-weight: bold;
+}
+
+.table {
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    margin: 0 0 30px 650px;
+}
